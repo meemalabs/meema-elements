@@ -1,6 +1,6 @@
 {
-  "name": "web-components-library-starter",
-  "version": "0.1.1",
+  "name": "meema-elements",
+  "version": "0.0.0",
   "packageManager": "pnpm@6.32.3",
   "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
   "keywords": [
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meemalabs/web-components-library-starter.git"
+    "url": "https://github.com/meemalabs/meema-elements.git"
   },
   "scripts": {
     "dev": "vite",
@@ -70,6 +70,6 @@
     "Chris Breuer <chris@meema.xyz>"
   ],
   "bugs": {
-    "url": "https://github.com/meemalabs/web-components-library-starter/issues"
+    "url": "https://github.com/meemalabs/meema-elements/issues"
   }
 }
