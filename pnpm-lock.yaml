@@ -8,7 +8,7 @@ specifiers:
   '@vitebook/markdown-vue': 0.23.5
   '@vitebook/theme-default': 0.23.5
   '@vitebook/vue': 0.23.5
-  '@vitejs/plugin-vue': 2.3.1
+  '@vitejs/plugin-vue': 3.2.0
   '@vue/compiler-sfc': 3.2.33
   '@vueuse/core': 8.3.0
   autoprefixer: 10.4.4
@@ -43,7 +43,7 @@ devDependencies:
   '@vitebook/markdown-vue': 0.23.5_a4b478fe8217ad38fff96826b5898625
   '@vitebook/theme-default': 0.23.5_555d7acd944f797fd991caa1ab598918
   '@vitebook/vue': 0.23.5_96bfc9095b55b1429ca5e16560a486dc
-  '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
+  '@vitejs/plugin-vue': 3.2.0_vite@2.9.5+vue@3.2.33
   '@vue/compiler-sfc': 3.2.33
   autoprefixer: 10.4.4_postcss@8.4.12
   cypress: 9.5.4
@@ -654,6 +654,17 @@ packages:
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
+      vue: ^3.2.25
+    dependencies:
+      vite: 2.9.5
+      vue: 3.2.33
+    dev: true
+
+  /@vitejs/plugin-vue/3.2.0_vite@2.9.5+vue@3.2.33:
+    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
       vite: 2.9.5
