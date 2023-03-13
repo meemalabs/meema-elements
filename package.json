@@ -33,7 +33,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@vueuse/core": "8.3.0",
+    "@vueuse/core": "9.13.0",
     "vue": "3.2.33"
   },
   "devDependencies": {
